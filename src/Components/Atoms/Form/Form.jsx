@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Form({type, placeholder, label, value}) {
   return (
-    <div className="p-floating-container">
+    <div id='form-container'>
       <label>{label}</label>
       <input type={type} value={value} placeholder={placeholder} />
     </div>
