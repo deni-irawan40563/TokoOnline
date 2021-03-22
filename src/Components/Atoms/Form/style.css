@@ -1,0 +1,13 @@
+input {
+  background-color: ghostwhite;
+  text-align: center;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+}
