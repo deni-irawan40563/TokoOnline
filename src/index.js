@@ -1,8 +1,12 @@
+//Import-React:
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Route from './Configs/Routes';
 import reportWebVitals from './reportWebVitals';
+
+//Import-Style:
+import './index.css';
+//Import-Components:
+import Route from './Configs/Routes';
 
 ReactDOM.render(
   <React.StrictMode>

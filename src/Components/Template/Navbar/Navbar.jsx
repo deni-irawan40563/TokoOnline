@@ -1,37 +1,28 @@
+//Import-React:
 import React from 'react';
+//Import-Style:
 import './style.css';
 
-//Import Atoms Components
-import SearchBar from '../../Atoms/SearchBar/SearchBar';
+//Import-Components:
+import LinkListNavbar from '../../Molecules/LinkListNavbar/LinkListNavbar';
+import UserListNavbar from '../../Molecules/UserListNavbar/UserListNavbar';
+import BurgerMenu from '../../Atoms/BurgerMenu/BurgerMenu';
+import Logo from '../../Logo/Logo';
 
 
-export default function Navbar({countCart}) {
+//Main-Components:
+export default function Navbar({onClick}) {
   return (
     <div id='navbar'>
       <div id="navbar-container">
-        <h1 id='logo-navbar'>Toko Online</h1>
-        <div id="link-list">
-          <p>Celana</p>
-          <p>Kemeja</p>
-          <p>Kaos</p>
-          <p>Jaket</p>
-          <p>Blazer</p>
-          <p>Sepatu</p>
-          <p>sendal</p>
-          <p>aksesoris</p>
-        </div>
-        <div id="user-list">
-        <i className="fa fa-shopping-cart"><span id='count-cart'>{countCart}</span></i>
-          <i className="fa fa-user"></i>
-          <div id='search-bar'>
-            <SearchBar />
-          </div>
-        </div>
+          <Logo />
+          <LinkListNavbar />
+          <UserListNavbar />
+      </div>
+      <div id="mobileNavbar">
+        <BurgerMenu onClick={onClick}/>
+        <h1 id='logo-mobileNavbar'>TokoOnline</h1>
       </div>
     </div>
   )
-}
-
-Navbar.defaultProps = {
-  countCart : 0
 }

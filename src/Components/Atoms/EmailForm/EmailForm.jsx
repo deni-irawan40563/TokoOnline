@@ -1,6 +1,10 @@
+//Import-React:
 import React from 'react'
+//Import-Style:
 import './style.css'
 
+
+//Main-Components:
 export default function EmailForm({placeholder, errorMessage, label, value}) {
   return (
     <div className="email-form">
@@ -11,6 +15,7 @@ export default function EmailForm({placeholder, errorMessage, label, value}) {
   )
 }
 
+//Default-Props:
 EmailForm.defaultProps = {
   placeholder : 'Masukan Email',
   errorMessage : 'Mohon Masukan Format Email yang Valid',

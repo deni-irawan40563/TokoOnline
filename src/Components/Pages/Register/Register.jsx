@@ -1,7 +1,12 @@
+//Import-React:
 import React, { Component } from 'react'
-import RegisterCard from '../../Template/Auth/RegisterCard/RegisterCard';
+//Import-Style:
 import './style.css';
+//Import-Components:
+import RegisterCard from '../../Template/Auth/RegisterCard/RegisterCard';
 
+
+//Main-Components:
 export default class Register extends Component {
   render() {
     return (

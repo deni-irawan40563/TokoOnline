@@ -1,4 +1,9 @@
+#mobileNavbar {
+  background-color: #fff;
+  display: none;
+}
 #navbar {
+  background-color: #fff;
   padding: 10px;
   border-bottom: 1px solid gainsboro;
 }
@@ -12,47 +17,17 @@
 #logo-navbar {
   font-weight: 400;
   color: #F2CB05;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   margin-right: 20px;
+  font-family:  'Lobster', cursive;
 }
-#user-list {
-  margin-left: 8%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#search-bar {
-  width: 150px;
-}
-#link-list {
-  display: flex;
-  flex: container;
-}
-#link-list p {
-  margin: 0 10px;
-  cursor: pointer;
-}
-#link-list p:hover {
-  color: #F2CB05;
-}
-.fa {
-  font-size: large;
-}
-.fa:hover {
-  color: #F2CB05;
-}
-.fa-user {
-  margin: 0 20px;
-}
-#count-cart {
-  color: #ffffff;
-  padding: 3px 3px;
-  background-color: #277FF2;
-  border-radius: 50%;
-  font-size: 0.7em;
-  position: absolute;
-  cursor: pointer;
-}
-#count-cart:hover {
-  color: #F2CB05;
+
+@media (max-width:992px){
+  #navbar-container {
+    display: none;
+  }
+  #mobileNavbar {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+  }
 }

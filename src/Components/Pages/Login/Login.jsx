@@ -1,9 +1,13 @@
+//Import-React:
 import React, { Component } from 'react'
+//Import-Style:
 import './style.css';
 
-//Import Template
+//Import-Components:
 import LoginCard from '../../Template/Auth/LoginCard/LoginCard';
 
+
+//Main-Components:
 export default class Login extends Component {
   render() {
     return (

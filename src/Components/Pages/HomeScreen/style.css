@@ -1,0 +1,16 @@
+#headerPosition {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+main {
+  padding: 120px 0;
+  height: 12000px;
+}
+
+@media (max-width:994px){
+  main {
+    padding: 60px 0;
+  }
+}

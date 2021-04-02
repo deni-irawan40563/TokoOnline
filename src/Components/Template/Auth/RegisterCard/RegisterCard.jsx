@@ -1,9 +1,12 @@
+//Import-React:
 import React from 'react'
+//Import-Style:
 import '../style.css'
-
-//import Molecules Components
+//Import-Components:
 import AuthForm from '../../../Molecules/AuthForm/AuthForm'
 
+
+//Main-Components:
 export default function RegisterCard() {
   return (
     <div id="auth-card">

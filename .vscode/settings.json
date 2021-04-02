@@ -1,0 +1,54 @@
+{
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**"
+  ],
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+        "text": "Import-Components:",
+        "color": "white",
+        "backgroundColor": "#1761BD",
+    },
+    {
+      "text": "Import-React:",
+      "color": "white",
+      "backgroundColor": "#E03C46",
+  },
+  {
+    "text": "Import-Style:",
+    "color": "white",
+    "backgroundColor": "#02B495",
+  },
+  {
+    "text": "Default-Props:",
+    "color": "white",
+    "backgroundColor": "#819FA6",
+  },
+  {
+    "text": "Main-Components:",
+    "color": "white",
+    "backgroundColor": "#F2B33D",
+  }
+  ],
+  "todohighlight.include": [
+
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss"
+  ]
+}

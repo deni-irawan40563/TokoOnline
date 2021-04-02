@@ -107,3 +107,32 @@
   font-weight: bold;
   margin: 5px 0;
 }
+
+#button-disable {
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: gainsboro;
+  color: black;
+  font-weight: bold;
+  margin: 5px 0;
+  cursor: not-allowed;
+}
+.fa-sync-alt {
+  animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate{
+  to{ transform: rotate(360deg); }
+}
+#button-block-disable {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;;
+  background-color: gainsboro;
+  color: black;
+  font-weight: bold;
+  margin: 5px 0;
+  cursor: not-allowed;
+}

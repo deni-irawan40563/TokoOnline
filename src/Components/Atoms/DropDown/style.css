@@ -1,0 +1,46 @@
+.dropdown {
+  margin: 0 10px;
+}
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #F2CB05;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  padding: 15px 10px;
+  z-index: 1;
+  height: auto;
+  color: black;
+  border: 1px solid gainsboro;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 2px;
+  border-radius: 5px 20px 20px 20px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #F2CB05;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
